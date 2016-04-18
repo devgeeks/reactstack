@@ -47,7 +47,7 @@ This project is inspired by / cherry picked from [`react-navigation-controller`]
           defaultPopTransition: transitions.SLIDE_LEFT,
         };
         return (
-          <ReactStack {...props} />
+          <ReactStack { ...props }/>
         );
       }
     };
