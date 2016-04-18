@@ -11,11 +11,11 @@ This project is inspired by / cherry picked from [`react-navigation-controller`]
 
 ### Functions
 
-- Stack.popAll()
-- Stack.popView()
-- Stack.pushView()
-- Stack.replaceAll()
-- Stack.replaceView()
+- stack.popAll()
+- stack.popView()
+- stack.pushView()
+- stack.replaceAll()
+- stack.replaceView()
 
 ### Events (?? maybe just react lifecycle?)
 
@@ -34,7 +34,7 @@ This project is inspired by / cherry picked from [`react-navigation-controller`]
 ### Component
 
     import React from 'react';
-    import { transitions, navigator }, ReactStack from 'reactstack';   
+    import { transitions, stack }, ReactStack from 'reactstack';   
 
     const App = React.createClass({
       render() {
