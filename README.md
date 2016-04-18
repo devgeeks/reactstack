@@ -35,6 +35,7 @@ This project is inspired by / cherry picked from [`react-navigation-controller`]
 
     import React from 'react';
     import { transitions, stack }, ReactStack from 'reactstack';   
+    import Home from './components/Home';
 
     const App = React.createClass({
       render() {
